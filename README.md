@@ -14,7 +14,7 @@ This is a simple About Me page built with HTML and CSS to introduce myself, show
 - Responsive Design
 
 ## 📸 Screenshot
-![screenshot](screenshot.jbg) 
+![screenshot](screenshot.jpg) 
 
 ## 🧠 What I Learned
 - Structuring semantic HTML
