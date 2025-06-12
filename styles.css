@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:'Courier New', Courier, monospace;
+    font-weight:bolder;
+    background: linear-gradient(135deg, #f6f0ff, #fceff9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+}
+
+.avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 4px solid #fabfd0;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+h1 {
+    margin: 10px 0 5px;
+    color: #b64465;
+}
+
+.tagline {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.links a {
+    display: inline-block;
+    margin: 5px 10px;
+    text-decoration: none;
+    color: #ffffff;
+    background: #b64465;
+    padding: 10px 16px;
+    border-radius: 10px;
+    transition: background 0.3s ease;
+}
+
+.links a:hover {
+    background: #f58caa;
+}
+
+.bio {
+    margin-top: 20px;
+    font-size: 15px;
+    color: #333;
+    line-height: 1.6;
+}
